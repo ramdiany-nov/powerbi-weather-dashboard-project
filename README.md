@@ -271,7 +271,6 @@ Users can dynamically explore weather metrics by selecting different cities and 
 ---
 
 ## 📂 Repository Structure
-
 # 🌦️ Indonesia Weather Analytics Dashboard Project
 
 ## 📌 Project Overview
@@ -409,15 +408,17 @@ Users can dynamically explore weather metrics by selecting different cities and 
 
 ## 📂 Repository Structure
 
-weather-analytics-dashboard/
-│
-├── weather-dashboard.pbix
-│
-├── assets/ # Backgrounds, icons, images
-│
-├── datasets/ # Static datasets (if any exports used)
-│
-├── LICENSE
+```
+weather-air-quality-dashboard/
+├── weather_dashboard.pbix
+├── assets/
+│   ├── background.png
+│   └── icons/
+├── static_dataset/
+│   ├── current_weather_sample.csv
+│   └── forecast_sample.csv
+├── docs/
+│   └── dashboard-preview.png
 └── README.md
 
 
@@ -431,4 +432,5 @@ Let’s connect:
 🔗 https://www.linkedin.com/in/noviaramdiany/
 
 ⭐ If you find this project interesting, feel free to explore and connect!
+
 
