@@ -113,13 +113,6 @@ Users can dynamically explore weather metrics by selecting different cities and 
 
 ---
 
-## 🔍 Key Insights *(Example Insights)*
-- Temperature trends vary significantly across regions, with eastern cities showing higher averages.  
-- Air quality levels generally remain within moderate ranges but fluctuate depending on location.  
-- Rain probability trends highlight seasonal patterns across cities.  
-
----
-
 ## 💡 Potential Use Cases
 - Environmental monitoring dashboards  
 - Weather analytics reporting  
@@ -129,7 +122,9 @@ Users can dynamically explore weather metrics by selecting different cities and 
 ---
 
 ## 🖼️ Dashboard Preview
-![Weather Dashboard Preview](assets/dashboard-preview.png)
+![Weather Dashboard Preview](dashboard/dashboard-preview-1.png)
+![Weather Dashboard Preview](dashboard/dashboard-preview-2.png)
+![Weather Dashboard Preview](dashboard/dashboard-preview-3.png)
 
 ---
 
@@ -137,15 +132,17 @@ Users can dynamically explore weather metrics by selecting different cities and 
 
 ```
 weather-air-quality-dashboard/
-├── weather_dashboard.pbix
-├── assets/
-│   ├── background.png
-│   └── icons/
+├── dashboard/
+│   ├── weather-dashboard.pbix
+│   └── dashboard-preview
+├── backgrounds/
+├── icons
 ├── static_dataset/
-│   ├── current_weather_sample.csv
-│   └── forecast_sample.csv
-├── docs/
-│   └── dashboard-preview.png
+│   ├── master-table.xlsx
+│   └── current.xlsx
+│   └── forecast_day.xlsx
+│   └── forecast_hour.xlsx
+│   └── location.xlsx
 └── README.md
 ```
 
