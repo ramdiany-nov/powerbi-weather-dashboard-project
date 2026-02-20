@@ -137,11 +137,11 @@ weather-air-quality-dashboard/
 │   └── dashboard-preview
 ├── backgrounds/
 ├── icons
-├── static_dataset/
+├── static-dataset/
 │   ├── master-table.xlsx
 │   └── current.xlsx
-│   └── forecast_day.xlsx
-│   └── forecast_hour.xlsx
+│   └── forecast-day.xlsx
+│   └── forecast-hour.xlsx
 │   └── location.xlsx
 └── README.md
 ```
